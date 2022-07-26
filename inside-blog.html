@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<merta name="viewprt" content="width = device-width, initial-scale=1.0"></merta>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+<link rel="stylesheet" type="text/css" hrer="css/all.min.css">
+<link href="style.css" rel="stylesheet" type="text/css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<title>inside blog - داخلی بلاگ</title>
+</head>
+
+<body>
+	<!-- start header -->
+	<header class="bg-navbar">
+		<div class="container">
+		<nav class="navbar navbar-dark navbar-expand-md px-md-0">
+			<a href="#" class="navbar-brand d-md-none">
+				<h4 class="mb-0">Logo</h4>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#amir">
+			    <span class="navbar-toggler-icon"></span>	
+			</button>
+				
+			<div class="collapse navbar-collapse" id="amir">
+				<ul class="navbar-nav ml-auto menu pr-0 text-center">
+					<li class="nav-item"><a class="nav-link text-white" href="index.html">خانه</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link text-white" href="#" id="navbarDropdown1" data-toggle="dropdown">لیست
+							<i style="font-size: 10px;" class="fa fa-chevron-down align-middle"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right border-0 shadow-sm text-right">
+							<a href="#" class="dropdown-item">لیست شماره 1</a>
+							<a href="#" class="dropdown-item">لیست شماره 2</a>
+							<a href="#" class="dropdown-item">لیست شماره 3</a>
+						</div>	
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link text-white" href="#" id="navbarDropdown2" data-toggle="dropdown">ویژگی
+							<i style="font-size: 10px;" class="fa fa-chevron-down align-middle"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right border-0 shadow-sm text-right">
+							<a href="#" class="dropdown-item">لیست شماره 1</a>
+							<a href="#" class="dropdown-item">لیست شماره 2</a>
+							<a href="#" class="dropdown-item">لیست شماره 3</a>
+						</div>	
+					</li>
+
+					<li class="nav-item namel"><a class="nav-link text-white" href="blog.html">مقالات</a></li>
+					<li class="nav-item namel"><a class="nav-link text-white" href="contact us.html">تماس باما</a></li>
+					<li class="nav-item namel"><a class="nav-link text-white" href="abuots us.html">درباره ما</a></li>
+					<li class="nav-item border-right pr-2 ml-2 mr-2 ">
+						<a class="nav-link text-white" href="#">
+							<i class="fa fa-user-plus align-middle  ml-1"></i>عضویت
+						</a>
+					</li>
+					<li class="nav-item shadow">
+						<a class="nav-link text-white" href="#">
+							<i class="fa fa-plus align-middle ml-1"></i>ایجاد آگهی
+						</a>
+					</li>
+				</ul>
+			</div> 
+			<a class="navbar-brand d-none d-md-block" href="#">
+				<h4 class="mb-0">Logo</h4>
+			</a>
+		</nav>
+	    </div>
+    </header>
+	<div class="header-two bg-white py-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<form class="d-lg-flex justify-content-center align-items-center text-center">
+						<input type="text" placeholder="عنوان آگهی...." class="form-control ml-lg-3 mb-2 mb-lg-0">
+						<select class="custom-select ml-lg-3 mb-2 mb-lg-0">
+							<option selected>نوع ملک</option>
+							<option value="1">آپارتمان</option>
+							<option value="2">خانه ویلایی</option>
+							<option value="3">زمین و کلنگی</option>
+						</select>
+						<select class="custom-select ml-lg-3 mb-2 mb-lg-0">
+							<option selected>موقعیت</option>
+							<option value="1">داخل شهر</option>
+							<option value="2">بیرون شهر</option>
+						</select>
+						<select class="custom-select ml-lg-3 mb-3 mb-lg-0">
+							<option selected>قیمت</option>
+							<option value="1">از کم به زیاذ</option>
+							<option value="2">از زیاد به کم</option>
+						</select>
+						<a class="btn  ml-lg-3 pro">پیشرفته</a>
+						<button class="btn px-4">جستجو</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end header-->
+
+	<main class="mt-5">		
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="card border-0 bg-transparent">
+						<div class="card-body d-flex justify-content-between justify-content-center flex-column flex-lg-row text-center align-items-center">
+							<div>
+								<small class="text-muted">خانه<i class="fas fa-chevron-left mx-1 align-middle"></i></small>
+								<small class="text-muted">آرشیو بلاگ</small>
+								<small class="text-danger"><i class="fas fa-chevron-left mx-1 align-middle"></i>نکاتی که باید در صحرا نوردی بدانید</small>
+							</div>
+
+							<h5 class="mt-2">داخی بلاگ</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="card border-0 shadow">
+						<div class="card-body">
+							<form class="search text-right">
+								<div class="form-group search2">
+									<input type="search" placeholder="جستجو...." class="form-control" style="width: 80%;">
+									<a href="#" class="btn shadow"><i class="fas fa-search"></i></a>
+								</div>
+							</form> 
+						</div>
+					</div>
+					<div class="card border-0 shadow mt-3">
+						<div class="card-body category-p text-right">
+							<p class="mb-4"><strong>دسته بندی مطالب</strong></p>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-4">
+								<a href="#" class="ml-1"><i class="fas fa-chevron-left align-middle mx-1"></i>سفر</a>
+								<small>60 مورد</small>
+							</div>
+						</div>
+					</div>
+					<div class="card border-0 shadow mt-3">
+						<div class="card-body text-right">
+							<p class="mb-4"><strong>ابر برجسب ها</strong></p>
+							<div class="tags">
+								<a href="#" class="btn btn-sm btn-light mb-2 ml-1">گردشگری</a>
+								<a href="#" class="btn btn-sm btn-light mb-2 ml-1">سفر</a>
+								<a href="#" class="btn btn-sm btn-light mb-2 ml-1">برنامه نویسی</a>
+								<a href="#" class="btn btn-sm btn-light mb-2 ml-1">وب</a>
+							    <a href="#" class="btn btn-sm btn-light mb-2 ml-1">تمرین</a>
+								<a href="#" class="btn btn-sm btn-light mb-2 ml-1">امیرحسین</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-8">
+					<div class="card border-0 shadow">
+						<div class="card-body text-right">
+							<h5>نکاتی که باید در صحرانوردی بدانید!!!!</h5>
+							<div class="d-flex my-3">
+								<small class="ml-4 text-muted"><i class="fas fa-user align-middle mx-1"></i>امیرحسین</small>
+								<small class="ml-4 text-muted"><i class="fas fa-calendar align-middle mx-1"></i>16 دی 1399</small>
+								<small class="ml-4 text-muted"><i class="fas fa-eye align-middle mx-1"></i>1398 بازدید</small>
+								<small class="ml-4 text-muted"><i class="fas fa-comment align-middle mx-1"></i>145 دیدگاه</small>
+							</div>
+							<div>
+								<img src="image/pexels-lukas-574071.jpg" class="img-fluid rounded mb-4" alt="image">
+								<p class="text-justify">
+									<small>
+										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+									</small>
+								</p>
+								<p class="text-justify">
+									<small>
+										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+									</small>
+								</p>
+								<h5>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم .</h5>
+								<p class="text-justify">
+									<small>
+										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+									</small>
+								</p>
+								<div class="card border-0 my-3 bg-light" style="border-right: 4px solid #ff5a60 !important; border-radius: 15px;">
+									<div class="card-body">
+										<p class="mb-0">
+											<div>
+												<img src="../../../../Downloads/2997.png" class="img-fluid" alt="image" style="height: 30px;">
+											</div>
+											<small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</small>
+										</p>
+									</div>
+								</div>
+							   	<p class="text-justify">
+									<small>
+										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و 
+										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و 
+
+									</small>
+								</p>
+							   	<p class="text-justify">
+									<small>
+										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+									</small>
+								</p>
+							</div>
+						</div>
+						<div class="card-footer text-right bg-transparent amiru">
+							<small>اشتراک گزاری :</small>
+								<a href="#" class="btn text-muted align-middle bg-light ml-2"><i class="fab fa-instagram"></i></a>
+								<a href="#" class="btn text-muted align-middle bg-light ml-2"><i class="fab fa-telegram"></i></a>
+								<a href="#" class="btn text-muted align-middle bg-light ml-2"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="btn text-muted align-middle bg-light ml-2"><i class="fab fa-facebook"></i></a>
+						</div>
+					</div>
+					<div class="my-4 justify-content-between d-flex align-items-center">
+						<a href="#" class="text-dark">
+							<div class="d-flex align-items-center right-arrow">
+								<p class="display-4">
+									<i class="fas fa-chevron-circle-right align-middle"></i>
+								</p>
+								<div class="text-right mr-3 mb-4">
+									<p class="mb-1">پست بعدی</p>
+									<small>چگونه ویندوز نصب کنیم</small>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="text-dark">
+							<div class="d-flex align-items-center right-arrow">
+								<div class="ml-3 mb-4">
+									<p class="mb-1">پست قبلی</p>
+									<small>چگونه ویندوز نصب کنیم</small>
+								</div>
+								<p class="display-4">
+									<i class="fas fa-chevron-circle-left align-middle"></i>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="card border-0 shadow">
+						<div class="card-header justify-content-between d-flex flex-column flex-lg-row bg-transparent">
+							<div class="d-flex">
+								<p>دیدگاه ها</p>
+								<div class="mr-2 box">
+									<a href="#" class="b1"><i class="fas fa-star"></i></a>
+									<a href="#" class="b2"><i class="fas fa-star"></i></a>
+									<a href="#" class="b3"><i class="fas fa-star"></i></a>
+									<a href="#" class="b4"><i class="fas fa-star"></i></a>
+									<a href="#" class="b5"><i class="fas fa-star"></i></a>
+								</div>
+ 							</div>
+						</div>
+						<div class="card-body">
+							<div class="d-flex flex-column flex-lg-row align-items-center mb-3 review">
+								<img src="image/pexels-simon-robben-614810.jpg" class="img-fluid" alt="commenbt">
+								<div class="text-right mr-3">
+									<div class="d-flex">
+										<p class="mb-0">امیرحسین</p>
+										<div class="mr-2 box mb-0">
+											<a href="#" class="b1"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b2"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b3"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b4"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b5"><i class="fas fa-star align-middle"></i></a>
+										</div>
+									</div>
+									<small class="text-muted d-block text-right">19 دی 1399</small>
+									<small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+									</small>
+								</div>
+							</div>
+							<div class="d-flex flex-column flex-lg-row align-items-center mb-3 review">
+								<img src="image/pexels-simon-robben-614810.jpg" class="img-fluid" alt="commenbt">
+								<div class="text-right mr-3">
+									<div class="d-flex">
+										<p class="mb-0">امیرحسین</p>
+										<div class="mr-2 box mb-0">
+											<a href="#" class="b1"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b2"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b3"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b4"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b5"><i class="fas fa-star align-middle"></i></a>
+										</div>
+									</div>
+									<small class="text-muted d-block text-right">19 دی 1399</small>
+									<small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+									</small>
+								</div>
+							</div>
+
+							<div class="d-flex flex-column flex-lg-row align-items-center mb-3 review">
+								<img src="image/pexels-simon-robben-614810.jpg" class="img-fluid" alt="commenbt">
+								<div class="text-right mr-3">
+									<div class="d-flex">
+										<p class="mb-0">امیرحسین</p>
+										<div class="mr-2 box mb-0">
+											<a href="#" class="b1"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b2"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b3"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b4"><i class="fas fa-star align-middle"></i></a>
+											<a href="#" class="b5"><i class="fas fa-star align-middle"></i></a>
+										</div>
+									</div>
+									<small class="text-muted d-block text-right">19 دی 1399</small>
+									<small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+									</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-0 shadow my-4">
+						<div class="card-header text-right bg-transparent">
+							<p>دیدگاه خود را وارد کنید</p>
+							<div class="d-flex align-items-center align-middle">
+								<small>امتیاز شما</small>
+								<div class="mr-2 box mb-0">
+									<a href="#" class="b1"><i class="fas fa-star align-middle"></i></a>
+									<a href="#" class="b2"><i class="fas fa-star align-middle"></i></a>
+									<a href="#" class="b3"><i class="fas fa-star align-middle"></i></a>
+									<a href="#" class="b4"><i class="fas fa-star align-middle"></i></a>
+									<a href="#" class="b5"><i class="fas fa-star align-middle"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="card-body review2 text-right">
+							<form>
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="text" placeholder="نام خود را وارد کنید" class="form-control">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 form-group">
+										<input type="email" placeholder="ایمیل خود را وارد کنید" class="form-control">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 form-group">
+										<textarea type="text" class="form-control" cols="30" rows="10" placeholder="دیدگاه شما" style="resize: none;"></textarea>
+									</div>
+								</div>
+							</form>
+							<a href="#" class="btn btn-danger hvr-push px-5">ارسال دیدگاه</a>
+						</div>
+					</div>
+					<div class="text-right mt-4">
+						<h5 style="font-weight: 600;">موارد مرتبط</h5>
+					</div>
+					<div class="inside-slider my-4">
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<div class="card border-0 shadow-sm">
+									<div class="card-img">
+										<img src="image/pexels-lukas-574071.jpg" class="img-fluid rounded" alt="image">
+									</div>
+									<div class="card-body d-flex">
+										<div class="text-right">
+											<p style="font-weight: 600;font-size: 15px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+											<small class="d-block text-muted"><i class="fas fa-calendar align-middle mx-1"></i>19 دی 1399</small>
+											<small class="d-block">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </small>
+										</div>
+									</div>
+									<div class="card-footer justify-content-between align-items-center d-flex bg-transparent">
+										<a href="#" class="text-danger"><i class="fas fa-chevron-right align-middle mx-1"></i>ادامه مطلب</a>
+										<small class="text-muted"><i class="fas fa-user align-middle mx-1"></i>امیرحسین</small>
+									</div>
+								</div>
+							</div>	
+							<div class="col-12 col-lg-6">
+								<div class="card border-0 shadow-sm">
+									<div class="card-img">
+										<img src="image/pexels-lukas-574071.jpg" class="img-fluid rounded" alt="image">
+									</div>
+									<div class="card-body d-flex">
+										<div class="text-right">
+											<p style="font-weight: 600;font-size: 15px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+											<small class="d-block text-muted"><i class="fas fa-calendar align-middle mx-1"></i>19 دی 1399</small>
+											<small class="d-block">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </small>
+										</div>
+									</div>
+									<div class="card-footer justify-content-between align-items-center d-flex bg-transparent">
+										<a href="#" class="text-danger"><i class="fas fa-chevron-right align-middle mx-1"></i>ادامه مطلب</a>
+										<small class="text-muted"><i class="fas fa-user align-middle mx-1"></i>امیرحسین</small>						
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--Start regester-->
+		<div class="regester py-5 mt-5">
+			<div class="container">
+				<div class="row flex-column flex-lg-row align-items-center justify-content-between text-center">
+					<div>
+						<h4 style="font-family: B Elham">همین حالا آگهی خود را ثبت کنید!!!</h4>
+						<small>در بین آگهی های بسیار معتبر شما نیز همراه ما دیده شوید...</small>
+					</div>
+					<div class="mt-3 mt-lg-0">
+						<a class="btn p-x-4">عضویت</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End regester-->
+	</main>
+	<!--Start footer-->
+	<footer>
+		<div class="footer-top py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+						<h6 class="text-white mb-4">درباره ما</h6>
+						<p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است 
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+						<h6 class="text-white mb-4">لینک های مرتبط</h6>
+						<ul class="nav pr-0 flex-column">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-muted pt-0 pr-0">
+									درباره ما
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-muted pt-0 pr-0">
+									تماس باما
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-muted pt-0 pr-0">
+									راهنما مشتریان
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-muted pt-0 pr-0">
+									قوانین
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-muted pt-0 pr-0">
+									پشتیبانی
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+						<h6 class="text-white mb-4">ارتباط باما</h6>
+						<p class="d-block text-muted mb-2">قزوین,خیابان فلسطین</p>
+						<p class="d-block text-muted mb-2">hoseinia070@gmail.com</p>
+						<p class="d-block text-muted mb-2">02800000</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+						<h6 class="text-white mb-4">به ما بپیوندید</h6>
+						<div class="follow">
+							<a href="#" class="ml-3 text-muted">
+								<i class="fab fa-instagram align-middle"></i>
+							</a>
+							<a href="#" class="ml-3 text-muted">
+								<i class="fab fa-facebook align-middle"></i>
+							</a>
+							<a href="#" class="ml-3 text-muted">
+								<i class="fab fa-telegram align-middle"></i>
+							</a>
+							<a href="#" class="ml-3 text-muted">
+								<i class="fab fa-twitter align-middle"></i>
+							</a>
+						</div>
+						<h6 class="text-white my-4">اشتراک گذاری</h6>
+						<div class="follow2 d-flex justify-content-center justify-content-lg-between">
+							<div class="form-group">
+								<input type="text" class="form-control rounded-pill py-3 border-0" placeholder="ایمیل خود را وارد کنید">
+							</div>
+							<div class="mr-2 mr-lg-0">
+								<a href="#" class="btn"><i class="fas fa-chevron-left align-middle text-white"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="under-footer py-2 bg-dark">
+		<div class="container">
+			<div class="row justify-content-between align-items-center d-flex foo">
+					<div class="items d-flex">
+						<li class="nav-item d-flex">
+							<a href="#" class="nav-link text-muted">خانه</a>
+						</li>
+						<li class="nav-item d-flex">
+							<a href="#" class="nav-link text-muted">لیست</a>
+						</li>
+						<li class="nav-item d-flex">
+							<a href="#" class="nav-link text-muted">ویژگی</a>
+						</li>
+						<li class="nav-item d-flex">
+							<a href="#" class="nav-link text-muted">بلاگ</a>
+						</li>
+						<li class="nav-item d-flex">
+							<a href="#" class="nav-link text-muted">درباره ما</a>
+						</li>
+					</div>
+					<a href="#" class="text-muted">COPYRIHGT FINDHOME.CO </a>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/myscripts.js"></script>
+<script src="js/popper.min.js"></script>
+</html>
+
+							  
+							  
+							  
+							  
+							  
